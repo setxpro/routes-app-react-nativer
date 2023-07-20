@@ -24,18 +24,19 @@
 # Dependence libs
 
 ```
-    npm install react-native-gesture-handler react-native-reanimated
+npm install react-native-gesture-handler react-native-reanimated
 ```
 
+# Add the library as the first import in App.tsx
 ```
 import 'react-native-gesture-handler';
 
 ```
 
-# pluguin of the reanimated on babel.config
+# Reanimated plugin in babel.config
 
 ```
-    plugins: ['react-native-reanimated/plugin'],
+plugins: ['react-native-reanimated/plugin'],
 ```
 
 
