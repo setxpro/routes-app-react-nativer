@@ -1,8 +1,14 @@
 # Libraries
  
 # Dependencies
-npm install @react-navigation/native
-npx expo install react-native-screens react-native-safe-area-context
+
+```
+    npm install @react-navigation/native
+```
+
+```
+    npx expo install react-native-screens react-native-safe-area-context
+```
 
 # Type Routes
     
@@ -16,10 +22,22 @@ npx expo install react-native-screens react-native-safe-area-context
 
 
 # Dependence libs
-npm install react-native-gesture-handler react-native-reanimated
+
+```
+    npm install react-native-gesture-handler react-native-reanimated
+```
+
+```
 import 'react-native-gesture-handler';
 
-pluguin do reanimated no babel.config
+```
+
+# pluguin of the reanimated on babel.config
+
+```
+    plugins: ['react-native-reanimated/plugin'],
+```
+
 
 # Version 
 
